@@ -5,7 +5,7 @@ Type Specimen Collection
 A series of single-page A4 type specimens for personal use — printed and hung on the wall as a visual reminder of favourite typefaces and their forms. Inspired by Letraset catalogue specimens.
 Each sheet uses the same template: large hero glyph "Ea1", weight scale with subject lines, character set, sample text, header and footer. Output is HTML, designed to be printed via Chrome → ⌘P → Save as PDF.
 Current collection
-N°FontSourceNotes01Manuale RomanGoogle FontsCosgaya & Tunni, 6 weights 300–80002Manuale ItalicGoogle FontsSame family, italic only03OnestGoogle FontsMartin Vacha, 9 weights 100–900, no italics04Pressio Stencil CompressedAdobe FontsSignal Type Foundry, 5 weights 300–80005InterstateAdobe FontsTobias Frere-Jones, 9 weights 100–900
+N°FontSourceNotes01Manuale RomanGoogle FontsCosgaya & Tunni, 6 weights 300–80002Manuale ItalicGoogle FontsSame family, italic only03OnestGoogle FontsMartin Vacha, 9 weights 100–900, no italics04Pressio Stencil CompressedAdobe FontsSignal Type Foundry, 5 weights 300–80005InterstateAdobe FontsTobias Frere-Jones, 9 weights 100–90006DiscordiaAdobe FontsÁlvaro Franca / Naipe Foundry, mini-super-family of 4 styles (Regular wedge serif, Italic monolinear sans, Bold slab, Bold Italic display)
 Files are named [Font]_Specimen.html. Open any of them in Chrome to view. To print: ⌘P → margins "None" → A4 → Save as PDF.
 Design system
 The template is a fixed grid:
@@ -66,6 +66,7 @@ Subject themes per specimen
 03 Onest → world airports with codes (LHR · London Heathrow)
 04 Pressio → skyscrapers with city and height (Burj Khalifa, Dubai · 828 m)
 05 Interstate → roads and highways (Route 66, I-95 Miami to Houlton)
+06 Discordia → trickster gods and chaos deities (Eris, Loki, Anansi, Coyote, Hermes, etc.)
 
 Each new specimen should pick a subject that resonates with the font's character. Names in non-Latin scripts are written in English transliteration (avoid CJK glyphs since most Latin fonts don't include them).
 Sample text rules
@@ -84,6 +85,7 @@ franklin-gothic (5 weights)
 kensington (5 weights)
 pressio-stencil-cmp (5 weights)
 interstate-hairline (9 weights with italics — note: despite the name, this is not the Hairline subfamily; it's standard Interstate)
+discordia (4 styles: Regular, Italic, Bold, Bold Italic — slug assumed; verify in kit CSS)
 
 To use a different Adobe Fonts kit, replace xtn6ysm with your kit ID in the <link> tag and update the font-family in CSS.
 Known issues
