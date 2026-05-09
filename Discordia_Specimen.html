@@ -100,7 +100,7 @@
     grid-column: 2;
     grid-row: 1;
     text-align: right;
-    font-size: 18pt;
+    font-size: 28pt;
     line-height: 1;
     font-weight: 700;
     letter-spacing: -0.01em;
@@ -193,10 +193,10 @@
     padding-bottom: 1.5mm;
   }
 
-  .r700i .sample { font-weight: 700; font-style: italic; font-size: 60pt; }
-  .r700  .sample { font-weight: 700; font-style: normal; font-size: 44pt; }
-  .r400i .sample { font-weight: 400; font-style: italic; font-size: 30pt; }
-  .r400  .sample { font-weight: 400; font-style: normal; font-size: 22pt; }
+  .r700i .sample { font-weight: 700; font-style: italic; font-size: 48pt; }
+  .r700  .sample { font-weight: 700; font-style: normal; font-size: 36pt; }
+  .r400i .sample { font-weight: 400; font-style: italic; font-size: 26pt; }
+  .r400  .sample { font-weight: 400; font-style: normal; font-size: 20pt; }
 
   /* ── BOX CHARSET + PARAGRAFO ─────────────────────────── */
   .boxes {
@@ -217,22 +217,20 @@
     margin-bottom: 4mm;
   }
 
-  .charset {
-    overflow: hidden;
-  }
   .charset .flow {
-    font-size: 44pt;
-    line-height: 42pt;
-    font-weight: 700;
+    font-size: 30pt;
+    line-height: 11mm;
+    font-weight: 400;
     letter-spacing: 0;
     word-break: break-all;
   }
 
   .paragraph {
     font-weight: 400;
+    font-size: 11pt;
+    line-height: 1.4;
   }
-  .paragraph p.p1 { font-size: 11pt; line-height: 15pt; font-style: normal; }
-  .paragraph p.p2 { font-size: 13pt; line-height: 17pt; font-style: italic; }
+  .paragraph p + p { margin-top: 3mm; font-style: italic; }
 
   /* ── FOOTER ──────────────────────────────────────────── */
   .footer {
@@ -290,7 +288,7 @@
         Latin &amp; Hebrew
       </div>
       <div class="credit">
-        Álvaro Franca · Naipe Foundry
+        Álvaro Franca<br>Naipe Foundry
       </div>
     </div>
   </section>
@@ -299,35 +297,34 @@
     <div class="row r700i">
       <span class="num">700<small>BOLD ITALIC</small></span>
       <span class="sample">Eris, goddess of strife</span>
-      <span class="label">60 pt</span>
+      <span class="label">48 pt</span>
     </div>
     <div class="row r700">
       <span class="num">700<small>BOLD</small></span>
-      <span class="sample">Loki, Norse trickster · Set, Egyptian god of disorder</span>
-      <span class="label">44 pt</span>
+      <span class="sample">Loki, Norse trickster · Set, Egyptian god of chaos</span>
+      <span class="label">36 pt</span>
     </div>
     <div class="row r400i">
       <span class="num">400<small>ITALIC</small></span>
       <span class="sample">Anansi the spider · Coyote the wanderer · Hermes the messenger · Reynard the fox</span>
-      <span class="label">30 pt</span>
+      <span class="label">26 pt</span>
     </div>
     <div class="row r400">
       <span class="num">400<small>REGULAR</small></span>
       <span class="sample">Pan, Susanoo, Maui, Iktomi, Veles, Tezcatlipoca, Mara, Lilith, Huehuecoyotl, Mercurius, Iblis, Bes, Aje Olokun, Kokopelli, Krishna the butter thief, Sun Wukong</span>
-      <span class="label">22 pt</span>
+      <span class="label">20 pt</span>
     </div>
   </section>
 
   <section class="boxes">
     <div class="charset">
       <div class="box-label">Character Set</div>
-      <div class="flow">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789&amp;@§¶«»“”‘’—–¡!¿?</div>
+      <div class="flow">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789&amp;@§¶†‡«»“”‘’—–¡!¿?</div>
     </div>
     <div class="paragraph">
-      <div class="box-label">Sample Text · 11 / 15 · Regular</div>
-      <p class="p1">In Greek myth, Eris, goddess of strife, was not invited to the wedding of Peleus and Thetis on Mount Pelion. Slighted, she rolled a golden apple inscribed kallisti, for the fairest, into the hall. Hera, Athena, and Aphrodite each claimed it; the dispute that followed became the seed of the Trojan War.</p>
-      <div class="box-label" style="margin-top: 4mm;">Sample Text · 13 / 17 · Italic</div>
-      <p class="p2">To the Romans she was Discordia, sister of Mars and companion of Bellona. Yet across cultures the trickster, the disturber, the bringer of chaos is rarely a villain alone. Loki, Anansi, Coyote, Hermes — each unsettles a fixed order so that something new can take its place.</p>
+      <div class="box-label">Sample Text · 11 pt · Regular &amp; Italic</div>
+      <p>In Greek myth, Eris, goddess of strife, was not invited to the wedding of Peleus and Thetis on Mount Pelion. Slighted, she rolled a golden apple inscribed kallisti, for the fairest, into the hall. Hera, Athena, and Aphrodite each claimed it; the dispute that followed became the seed of the Trojan War.</p>
+      <p>To the Romans she was Discordia, sister of Mars and companion of Bellona. Yet across cultures the trickster, the disturber, the bringer of chaos is rarely a villain alone. Loki, Anansi, Coyote, Hermes — each unsettles a fixed order so that something new can take its place.</p>
     </div>
   </section>
 
