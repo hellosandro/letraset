@@ -6,7 +6,7 @@ A series of single-page A4 type specimens for personal use — printed and hung 
 Each sheet uses the same template: large hero glyph "Ea1", weight scale with subject lines, character set, sample text, header and footer. Output is HTML, designed to be printed via Chrome → ⌘P → Save as PDF.
 Current collection
 N°FontSourceNotes01Manuale RomanGoogle FontsCosgaya & Tunni, 6 weights 300–80002Manuale ItalicGoogle FontsSame family, italic only03OnestGoogle FontsMartin Vacha, 9 weights 100–900, no italics04Pressio Stencil CompressedAdobe FontsSignal Type Foundry, 5 weights 300–80005InterstateAdobe FontsTobias Frere-Jones, 9 weights 100–90006DiscordiaAdobe FontsÁlvaro Franca / Naipe Foundry, mini-super-family of 4 styles (Regular wedge serif, Italic monolinear sans, Bold slab, Bold Italic display)
-Files are named [Font]_Specimen.html. Open any of them in Chrome to view. To print: ⌘P → margins "None" → A4 → Save as PDF.
+Files are named [Font]_Specimen.html. Open `index.html` for a landing page that links to all specimens, or open any specimen file directly in Chrome. To print: ⌘P → margins "None" → A4 → Save as PDF.
 Design system
 The template is a fixed grid:
 ┌────────────────────────────────────────────────────────┐
@@ -146,7 +146,7 @@ To do
  Make weight calibration generic via CSS custom properties (--hero-pull-x, --hero-pull-y)
  Add specimens for: Fraunces, Bricolage Grotesque, Instrument Serif, Departure Mono (display, expressive)
  Add Fontshare specimens: Erode, Khand, Tanker, Excon, Gambarino
- Eventually unify all specimens into a single index page with thumbnail navigation
+ ~~Eventually unify all specimens into a single index page with thumbnail navigation~~ → done in `index.html` (typographic list, each entry set in its own typeface)
 
 Conversation history
 This project was built iteratively in conversation with Claude (Sonnet/Opus). The full transcript captures every design decision, mistake, and reasoning. If continuing in a new session, share the most recent specimen as reference and the AI should pick up the conventions from the file alone.
